@@ -27,3 +27,6 @@ Create the conda environment for the project with
  $ conda coda_env create
 
 This will create a conda environment with the requirements from coda_env.yml. Now run driver.py.
+
+driver.py will gradually increase the training sample size and will store the accuracy and area under roc value for different techniques. The data will be stored as a pickle file which can be used for plotting. 
+
